@@ -19,6 +19,7 @@ namespace battery.Droid.Services
     {
         public BatteryInfo GetBatteryInfo()
         {
+
             throw new NotImplementedException();
         }
     }

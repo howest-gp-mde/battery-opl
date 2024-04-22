@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-[assembly:Dependency(typeof(battery.UWP.Services.UwpBatteryService)]
+[assembly:Dependency(typeof(battery.UWP.Services.UwpBatteryService))]
 namespace battery.UWP.Services
 {
     public class UwpBatteryService : IBatteryService

@@ -17,7 +17,7 @@ namespace battery.ViewModels
         public string State
         {
             get { return state; }
-            set { state = value; RaisePropertyChanged(nameof(State)) }
+            set { state = value; RaisePropertyChanged(nameof(State)); }
         }
 
         private double mWHour;
