@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="battery.Pages.EssentialsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding IsCharging}"></Label>
+            <Label Text="{Binding State}"></Label>
+            <Label Text="{Binding ChargeLevel}"></Label>
+            <Label Text="{Binding PowerSource}"></Label>
+            <Button Text="Load" Command="{ Binding LoadCommand}"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

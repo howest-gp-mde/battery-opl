@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="battery.Pages.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Command="{Binding GoToEssentialsPage}" Text="Essentials Page"></Button>
+            <Button Command="{Binding GoToPlatformPage}" Text="Platform specific Page"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
